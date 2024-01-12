@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="stylesheet" href="../styles/contact.css">
+        <link rel="shortcut icon" href="../assets/images/ARABIC FOOD LOGO.png" type="image/x-icon">
+
+
+    </head>
+
+    <body>
+        <section class="effect-images">
+            <div class="blur-clr">
+                <img src="../assets/images/side design- right dawn.png" alt="">
+            </div>
+            <div class="blur-clr">
+                <img src="../assets/images/side design- left top.png" alt="">
+            </div>
+            <div class="blur-clr">
+                <img src="../assets/images/side design- right top.png" alt="">
+            </div>
+            <div class="blur-clr">
+                <img src="../assets/images/side design- left dawn.png" alt="">
+            </div>
+        </section>
+
+        <header class="main-header">
+            <a href="./index.html" class="logo">
+                <img src="../assets/images/ARABIC FOOD LOGO.png" alt="logo" class="logo">
+            </a>
+            <ul class="nav">
+                <li><a class="header-link" href="../index.html">Home</a></li>
+                <li><a class="header-link" href="./About.html">About</a></li>
+                <li><a class="header-link" href="./Menu.html">Menu</a></li>
+                <li><a class="header-link" active="true" href="./Contact.html">Contact</a></li>
+                <li><a class="header-link" href="./Review.html">Review</a></li>
+            </ul>
+        </header>
+
+        
+        <div class="heading-menu">
+            <h3> Contact Us</h3>
+        </div>
+
+        <form class="contact-form" action="mailto:Joyce.muller.e21550@gmail.com" method="POST">
+            <input name="firstName" type="text" autocomplete="name" id="FirstName" placeholder="First Name" required>
+            <input name="lastName" type="text" autocomplete="family-name" id="LastName" placeholder="Last Name"
+                required>
+            <input name="email" type="email" autocomplete="email" id="Email" placeholder="Email" required>
+            <input name="mobile" type="tel" id="Mobile" autocomplete="tel" placeholder="Mobile" required>
+            <textarea title="message" name="message" required placeholder="Insert your message here"></textarea>
+            <input type="submit" value="Send" id="button">
+        </form>
+    </body>
+
+</html>

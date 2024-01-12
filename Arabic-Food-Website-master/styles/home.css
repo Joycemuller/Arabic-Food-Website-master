@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+
+.hero-section {
+  width: 100vw;
+  height: 90vh;
+  max-height: 90vh;
+  display: flex;
+  padding: 3rem;
+  place-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.hero-typography {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 500;
+  color: var(--clr-primary-light);
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--clr-primary-light);
+}
+
+.hero-image {
+  width: calc(20vw + 20% + 50px - 10rem);
+  height: calc(100vh - 6rem);
+  object-fit: contain;
+}

@@ -1,0 +1,68 @@
+/* Menu page*/
+h5 {
+  color: #ffe9c1;
+  font-family: "roboto";
+}
+
+p {
+  color: #ffe9c1;
+  font-size: 1rem;
+  font-family: "roboto";
+}
+
+.menu-container {
+  width: 90vw;
+  min-width: 750px;
+  max-height: 90vh;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  padding: 1rem 3rem;
+  gap: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 125px;
+}
+
+.item {
+  display: flex;
+  min-width: 300px;
+  max-width: 300px;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.food-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.food-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.food-title {
+  color: #ffe9c1;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.food-info .food-title h3 span {
+  color: #ffa300;
+}
+
+.food-description {
+  font-size: 0.8rem;
+  justify-content: space-around;
+  margin-top: 6px;
+}
